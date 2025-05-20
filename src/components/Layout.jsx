@@ -1,12 +1,26 @@
 import { Link } from "react-router-dom";
+import logoimg from '../assets/logoimg.png'
+import './Layout.css'
+
 
 export default function Layout() {
     return (
         <>
-            <h1>My Portfolio</h1>
-            <nav>
-                <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/education">Education</Link> | <Link to="/projects">Projects</Link> | <Link to="/contact">Contact</Link>
-            </nav>
+        <header className="header">
+            <Link to="/">
+                    <img className="logo" src={logoimg} alt="logo" />
+            </Link>
+                <nav className="nav">
+                    <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/Service">Service</Link></li>                     
+                    </ul>
+                </nav>
+            <div></div>
+        </header>
         </>
     )
 }

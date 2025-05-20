@@ -1,0 +1,53 @@
+.form {
+  width: 500px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -20px #000;
+  margin: auto;
+  padding: 40px 80px;
+  max-width: 100%;
+  box-sizing: border-box;
+
+  /* 중앙 정렬 추가 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 20px 0;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px; 
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contact-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.form p {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.sns {
+  display: flex;
+  font-size: 50px;
+  gap: 16px;
+  justify-content: center;
+}

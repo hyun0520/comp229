@@ -3,7 +3,7 @@ import Layout from "./components/Layout"
 import Home from "./components/Home"
 import About from "./components/About"
 import Contact from "./components/Contact"
-import Education from "./components/Education"
+import Service from "./components/Service"
 import Projects from "./components/Projects"
 
 const MainRouter = () => {
@@ -14,7 +14,7 @@ const MainRouter = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/education" element={<Education />} />
+                <Route path="/Service" element={<Service />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>
         </div>
