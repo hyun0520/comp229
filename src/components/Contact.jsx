@@ -25,7 +25,7 @@ export default function Contact() {
 
       <div className="contact-row">
         <MdEmail className="contact-icon" />
-        <p>lee@example.com</p>
+        <p>clee255@my.centennialcollege.ca</p>
       </div>
       <h2></h2>
       <div className="sns">
