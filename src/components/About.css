@@ -1,16 +1,16 @@
 .About {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start; /* 이미지와 텍스트 위쪽 정렬 */
+  align-items: flex-start;
   justify-content: center;
-  gap: 40px; /* 사진-글 간 간격 증가 */
+  gap: 40px;
   max-width: 1200px;
   margin: 100px auto;
   padding: 0 20px;
 }
 
 .About-image img {
-  max-width: 500px; /* 이미지 크기 확대 */
+  max-width: 500px;
   height: auto;
   border-radius: 8px;
 }
@@ -18,11 +18,11 @@
 .About-text {
   max-width: 600px;
   font-family: sans-serif;
-  text-align: left; /* 텍스트 왼쪽 정렬 */
+  text-align: left;
 }
 
 .About-text h2 {
-  font-size: 30px; /* 제목 글씨 약간 줄임 */
+  font-size: 30px;
   margin-bottom: 16px;
   border-bottom: 2px solid #000;
   

@@ -16,7 +16,7 @@ export default function Layout() {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/Service">Service</Link></li>                     
+                    <li><Link to="/service">Service</Link></li>  
                     </ul>
                 </nav>
             <div></div>

@@ -1,0 +1,59 @@
+.cform {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -20px #000;
+
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-row label {
+  width: 120px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.contact-row input,
+.contact-row select,
+.contact-row textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.contact-row textarea {
+  min-height: 140px;
+}
+
+.contact-button {
+  background-color: white;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black; 
+  border: 2px solid black;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+  background-color: red;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}

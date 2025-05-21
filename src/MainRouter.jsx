@@ -5,6 +5,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Service from "./components/Service"
 import Projects from "./components/Projects"
+import Form from "./components/Form"
 
 const MainRouter = () => {
     return (
@@ -14,6 +15,7 @@ const MainRouter = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/form" element={<Form />} />
                 <Route path="/Service" element={<Service />} />
                 <Route path="/projects" element={<Projects />} />
             </Routes>

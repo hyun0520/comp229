@@ -1,6 +1,5 @@
 import './About.css';
 import aboutimg from '../assets/aboutimg.png';
-import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -21,8 +20,8 @@ export default function About() {
         </p>
         <div className="button-group">
           <a href="/ChungHyun_Lee_Resume.pdf" download>
-    <button className="resume-button">RESUME</button>
-  </a>
+          <button className="resume-button">RESUME</button>
+          </a>
         </div>
       </div>
     </div>

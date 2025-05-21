@@ -6,6 +6,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { MdContactSupport } from "react-icons/md";
 
 export default function Contact() {
   return (
@@ -26,6 +27,10 @@ export default function Contact() {
       <div className="contact-row">
         <MdEmail className="contact-icon" />
         <p>clee255@my.centennialcollege.ca</p>
+      </div>
+      <div className="contact-row">
+        <MdContactSupport  className="contact-icon" />
+        <Link to="/Form"><button className="contact-button">Contact Form</button></Link>
       </div>
       <h2></h2>
       <div className="sns">
