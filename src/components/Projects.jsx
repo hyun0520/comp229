@@ -1,45 +1,62 @@
+  /*
+  FileName: Project.jsx
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+
 import './Projects.css'
+import projectimg from '../assets/projectimg.png'
+import projectimg2 from '../assets/projectimg2.png'
+import projectimg3 from '../assets/projectimg3.png'
 
 const cards = [
   {
-    title: "tileform",
-    desc: "The best way to predict the future is to create it.",
-    image: "img/card_bg01.jpg",
-    alt: "form",
-    link: "/"
+    title: "Global Citizenship", //card 
+    desc: {
+      role: "Role: Writer",
+      conclusion: "Conclusion: To become a global citizen, write about empathy, critical consciousness, and respect for cultural diversity."
+    },
+    image: projectimg2,
+    alt: "GNEDImg",
   },
   {
-    title: "tileform",
-    desc: "The best way to predict the future is to create it.",
-    image: "img/card_bg02.jpg",
-    alt: "form",
-    link: "/"
+    title: "Portfolio Project",
+    desc: {
+      role: "Role: Frontend developer",
+      conclusion: "Conclusion: made it a portfolio assignment with Comp229 and implemented the site using React and vite."
+    },
+    image: projectimg3,
+    alt: "PortfolioImg",
   },
   {
-    title: "tileform",
-    desc: "The best way to predict the future is to create it.",
-    image: "img/card_bg03.jpg",
-    alt: "form",
-    link: "/"
+    title: "NumPy and Matplotlib",
+    desc: {
+      role: "Role: developer",
+      conclusion: "Conclusion: For the COMP318 - UI - Smart Device Week 2 assignment, use Python to implement a graph using NumPy and Matplotlib."
+    },
+    image: projectimg,
+    alt: "pythonProjectImg",
   }
 ];
+
 
 export default function Projects() {
     return (
       <>
-        <section id="cardType" className="card__wrap nexon section">
-          <h1>Projects</h1>
-          <p></p>
+        <section>
+          <h1>Projects</h1><br/>
           <div className="card__inner container">
-            {cards.map((card, index) => (
-              <article className="card" key={index}>
-                <figure className="card__header">
-                  <img src={card.image} alt={card.alt} />
+            {cards.map((card) => (
+              <article className="card">
+                <figure>
+                <img src={card.image} alt={card.alt} /> {/*Img alt*/}
                 </figure>
                 <div className="card__body">
-                  <h3 className="tit">{card.title}</h3>
-                  <p className="desc">{card.desc}</p>
-                  <a className="button" href={card.link}>About</a>
+                  <h3 className="tit">{card.title}</h3> {/*Project tittle*/}
+                  <p className="desc"><strong>{card.desc.role}</strong></p> {/*Project role*/}
+                  <p className="desc"><strong>{card.desc.conclusion}</strong></p> {/*Project description*/}
                 </div>
               </article>
             ))}

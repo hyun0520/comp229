@@ -1,6 +1,15 @@
+  /*
+  FileName: Form.css
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+
 .cform {
   max-width: 700px;
   margin: 40px auto;
+  margin-bottom: 30px;
   padding: 30px;
   border-radius: 10px;
   background-color: #f2f2f2;
@@ -8,19 +17,26 @@
   box-shadow: 0 0 40px -20px #000;
 
 }
+/*make gap between h2 header and text section*/
+h2 {
+  margin-bottom: 30px;
+}
 
+/*Sort text and input boxes*/
 .contact-row {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
+
+/*label style*/
 .contact-row label {
   width: 120px;
   margin-right: 10px;
   font-weight: bold;
 }
-
+/*section style*/
 .contact-row input,
 .contact-row select,
 .contact-row textarea {
@@ -34,7 +50,7 @@
 .contact-row textarea {
   min-height: 140px;
 }
-
+/*ContactForm button style*/
 .contact-button {
   background-color: white;
   color: white;
@@ -53,7 +69,3 @@
   color: white;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}

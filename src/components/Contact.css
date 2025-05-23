@@ -1,3 +1,11 @@
+  /*
+  FileName: Contact.css
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+/*Contact form-card style*/
 .form {
   width: 500px;
   height: 480px;
@@ -14,15 +22,12 @@
   align-items: center;
 }
 
-h2 {
-  margin: 10px 0;
-  padding-bottom: 10px;
-  width: 100%;
-  text-align: center;
+.form p {
+  margin: 0;
+  font-size: 16px;
   color: #000;
-  border-bottom: 3px solid #000;
 }
-
+/*text gap text to text*/
 .contact-row {
   display: flex;
   align-items: center;
@@ -31,18 +36,12 @@ h2 {
   margin: 10px 0;
   width: 100%;
 }
-
+/*icon style*/
 .contact-icon {
   font-size: 30px;
   color: #333;
 }
-
-.form p {
-  margin: 0;
-  font-size: 16px;
-  color: #000;
-}
-
+/**/
 .sns {
   display: flex;
   font-size: 45px;

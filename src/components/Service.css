@@ -1,17 +1,22 @@
+  /*
+  FileName: Service.css
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+  
+/*section style*/
 .tech-stack {
   padding: 40px;
   background: white;
   color: #fff;
   font-family: sans-serif;
 }
-
+/*h2,h3 tech-card box style*/
 .tech-stack h2 {
   font-size: 28px;
   margin-bottom: 30px;
-}
-
-.tech-group {
-  margin-bottom: 40px;
 }
 
 .tech-group h3 {
@@ -20,13 +25,16 @@
   color: black;
   text-align: left;
 }
-
+.tech-group {
+  margin-bottom: 40px;
+}
+/*Arrange icon letters line*/
 .tech-items {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
-
+/* card style */
 .tech-card {
   display: flex;
   align-items: center;

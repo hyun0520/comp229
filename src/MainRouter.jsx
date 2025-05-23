@@ -1,3 +1,11 @@
+ /*
+  FileName: MainRouter.jsx
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/19
+  */
+
 import { Routes, Route } from "react-router-dom"
 import Layout from "./components/Layout"
 import Home from "./components/Home"

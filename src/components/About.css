@@ -1,3 +1,12 @@
+  /*
+  FileName: About.css
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+  
+/*About-page style*/
 .About {
   display: flex;
   flex-wrap: wrap;
@@ -8,13 +17,13 @@
   margin: 100px auto;
   padding: 0 20px;
 }
-
+/*image style*/
 .About-image img {
   max-width: 500px;
   height: auto;
   border-radius: 8px;
 }
-
+/*About-page text style*/
 .About-text {
   max-width: 600px;
   font-family: sans-serif;
@@ -43,7 +52,7 @@
   line-height: 1.6;
 }
 
-/*button*/
+/*button style*/
 .resume-button {
   margin-top: 5px;
   padding: 8px 16px;
@@ -59,10 +68,3 @@
   background-color: red;
   color: white;
 }
-
-/*button
-.button-group {
-  display: flex;
-  gap: 12px;
-  margin-top: 16px;
-}*/

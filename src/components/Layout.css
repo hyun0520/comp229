@@ -1,3 +1,12 @@
+ /*
+  FileName: Layout.css
+  Name:Chunghyun Lee
+  Student number: 301000913
+  Course: COMP229-401
+  Date: 2025/05/22
+  */
+
+/*header style*/
 .header {
   position: fixed;
   top: 0;
@@ -12,7 +21,7 @@
   max-width: 100%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-
+/*header logo*/
 .logo{
     max-height: 100px;
     margin-right: 50px;
@@ -21,9 +30,8 @@
 
 .logo > img {
   height: 90px;
-  
 }
-
+/*navigation bar stlye*/
 .nav ul {
   list-style: none;
   display: flex;
