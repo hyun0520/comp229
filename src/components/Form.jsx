@@ -42,7 +42,7 @@ export default function form() {
         </div>
         {/*Move to Home-page*/}
         <div className="contact-row">
-          <Link to="/"><button className="contact-button">Contact Form</button></Link>
+          <Link to="/"><button className="contact-button">SUBMIT</button></Link>
         </div>
         
       </div>
