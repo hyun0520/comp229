@@ -13,7 +13,7 @@ import projectimg3 from '../assets/projectimg3.png'
 
 const cards = [
   {
-    title: "Global Citizenship", //card 
+    title: "Global Citizenship",
     desc: {
       role: "Role: Writer",
       conclusion: "Conclusion: To become a global citizen, write about empathy, critical consciousness, and respect for cultural diversity."
@@ -31,13 +31,13 @@ const cards = [
     alt: "PortfolioImg",
   },
   {
-    title: "NumPy and Matplotlib",
+    title: "FlickBuzz project",
     desc: {
       role: "Role: developer",
-      conclusion: "Conclusion: For the COMP318 - UI - Smart Device Week 2 assignment, use Python to implement a graph using NumPy and Matplotlib."
+      conclusion: "Conclusion: It is a movie review site where users can leave reviews of movies."
     },
     image: projectimg,
-    alt: "pythonProjectImg",
+    alt: "COMP229ProjectImg",
   }
 ];
 
