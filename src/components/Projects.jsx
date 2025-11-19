@@ -12,15 +12,15 @@ import projectimg2 from '../assets/projectimg2.png'
 import projectimg3 from '../assets/projectimg3.png'
 
 const cards = [
-  {
-    title: "Global Citizenship",
-    desc: {
-      role: "Role: Writer",
-      conclusion: "Conclusion: To become a global citizen, write about empathy, critical consciousness, and respect for cultural diversity."
-    },
-    image: projectimg2,
-    alt: "GNEDImg",
-  },
+  // {
+  //   title: "Global Citizenship",
+  //   desc: {
+  //     role: "Role: Writer",
+  //     conclusion: "Conclusion: To become a global citizen, write about empathy, critical consciousness, and respect for cultural diversity."
+  //   },
+  //   image: projectimg2,
+  //   alt: "GNEDImg",
+  // },
   {
     title: "Portfolio Project",
     desc: {

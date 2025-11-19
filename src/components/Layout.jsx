@@ -14,6 +14,7 @@ import './Layout.css'
 export default function Layout() {
     return (
         <>
+        {/* Header */}
         <header className="header">
             <Link to="/"> {/*Move to homepage*/}
                     <img className="logo" src={logoimg} alt="logo" /> 
@@ -29,6 +30,11 @@ export default function Layout() {
                 </nav>
             <div></div>
         </header>
+        
+        {/* Footer */}
+        <footer className="footer">
+            <p>© 2025 CH.Lee Portfolio. All Rights Reserved.</p>
+        </footer>
         </>
     )
 }

@@ -47,20 +47,66 @@
   font-size: 21px;
 }
 
+/*footer style*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #040426; 
+  color: #ddd;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #333;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.35);
+  z-index: 1000;
+}
+
+/*body가 footer와 겹치지 않도록 공간 확보*/
+body {
+  padding-bottom: 100px; 
+  margin: 0;
+}
 
 
 
+/* ------------------------------
+   RESPONSIVE (MOBILE)
+------------------------------ */
+@media (max-width: 768px) {
 
+  /* 헤더 정렬 수정 */
+  .header {
+    flex-direction: column;
+    padding: 10px 0;
+  }
 
+  .logo img {
+    height: 55px;
+  }
 
+  /* 메뉴 mobile에서 세로 정렬 */
+  .nav ul {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+  }
 
+  .nav a {
+    font-size: 18px;
+  }
 
+  /* footer mobile padding 감소 */
+  .footer {
+    padding: 12px 0;
+    font-size: 13px;
+  }
 
-
-
-
-
-
-
-
-
+  body {
+  margin: 0;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  }
+}
