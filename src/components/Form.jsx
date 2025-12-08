@@ -1,11 +1,3 @@
-  /*
-  FileName: Form.jsx
-  Name:Chunghyun Lee
-  Student number: 301000913
-  Course: COMP229-401
-  Date: 2025/05/22
-  */
- 
 import "./Form.css";
 import { Link } from "react-router-dom";
 

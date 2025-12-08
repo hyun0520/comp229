@@ -1,12 +1,3 @@
-  /*
-  FileName: Service.jsx
-  Name:Chunghyun Lee
-  Student number: 301000913
-  Course: COMP229-401
-  Date: 2025/05/22
-  */
- 
-
 import './Service.css'
 import { FaNodeJs } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr";

@@ -1,11 +1,3 @@
-  /*
-  FileName: About.jsx
-  Name:Chunghyun Lee
-  Student number: 301000913
-  Course: COMP229-401
-  Date: 2025/05/22
-  */
-
 import './About.css';
 import aboutimg from '../assets/aboutimg.png';
 

@@ -1,11 +1,3 @@
-  /*
-  FileName: Contact.jsx
-  Name:Chunghyun Lee
-  Student number: 301000913
-  Course: COMP229-401
-  Date: 2025/05/22
-  */
-
 import "./Contact.css";
 import { MdAssistantNavigation } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
