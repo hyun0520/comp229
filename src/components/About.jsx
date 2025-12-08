@@ -1,30 +1,39 @@
 import './About.css';
 import aboutimg from '../assets/aboutimg.png';
+import { useLanguage } from "./LanguageContext";
+import { text } from "../i18n/text";
 
 export default function About() {
+  const { lang } = useLanguage();
+  const t = text[lang].about;
+
   return (
     <div className="About">
-      {/*About-page picture*/}
+      {/* About-page picture */}
       <div className="About-image">
         <img src={aboutimg} alt="picture" />
       </div>
+
       <div className="About-text">
-        {/*header*/}
-        <h2 className="bold">About Me</h2>
-        {/*Introduction*/}
-        <p><strong>Name:</strong> Chung-hyun Lee</p>
-        <p><strong>Age:</strong> 1999. May. 20</p>
-        <p><strong>Blood type:</strong> O  RH+</p>
-        <p><strong>Strength:</strong><br/>
-        <span className="strength-text">
-            I have completed my military service, which has strengthened my discipline and sense of responsibility. 
-            I am a dedicated and reliable individual who is ready to contribute to any team with a strong work ethic and a positive attitude.
-        </span>
+        {/* header */}
+        <h2 className="bold">{t.title}</h2>
+
+        {/* Introduction */}
+        <p><strong>{t.nameLabel}</strong> {t.name}</p>
+        <p><strong>{t.ageLabel}</strong> {t.age}</p>
+        <p><strong>{t.bloodLabel}</strong> {t.blood}</p>
+
+        <p>
+          <strong>{t.strengthLabel}</strong><br/>
+          <span className="strength-text">
+            {t.strength}
+          </span>
         </p>
-        {/*Resume download button*/}
+
+        {/* Resume download button */}
         <div className="button-group">
           <a href="/ChungHyun_Lee_Resume.pdf" download>
-          <button className="resume-button">RESUME</button>
+            <button className="resume-button">{t.resume}</button>
           </a>
         </div>
       </div>
