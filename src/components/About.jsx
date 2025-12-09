@@ -24,7 +24,7 @@ export default function About() {
         <p><strong>{t.bloodLabel}</strong> {t.blood}</p>
 
         <p>
-          <strong>{t.strengthLabel}</strong><br/>
+          <strong>{t.strengthLabel}</strong><br />
           <span className="strength-text">
             {t.strength}
           </span>
@@ -32,9 +32,19 @@ export default function About() {
 
         {/* Resume download button */}
         <div className="button-group">
-          <a href="/ChungHyun_Lee_Resume.pdf" download>
-            <button className="resume-button">{t.resume}</button>
-          </a>
+          <button
+            className="resume-button"
+            onClick={() => {
+              const resumeFile =
+                lang === "ko"
+                  ? "/Resume_KR.pdf"     // 한국어 이력서
+                  : "/Resume_EN.pdf";    // 영어 이력서
+
+              window.open(resumeFile, "_blank");
+            }}
+          >
+            {t.resume}
+          </button>
         </div>
       </div>
     </div>

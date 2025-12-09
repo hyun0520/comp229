@@ -35,22 +35,25 @@ export const text = {
       cards: [
         {
           title: "Portfolio Project",
-          role: "Role: Frontend developer",
-          conclusion: "Conclusion: made it a portfolio assignment with Comp229 and implemented the site using React and Vite.",
+          role: "Role: developer",
+          tech: "Tech Stack: React.js, React Router, JavaScript(ES6+), JSX, vite CSS3, Context API, Responsive",
+          conclusion: "This is a responsive personal portfolio website built with React and Vite, featuring bilingual support (English/Korean) and dynamic resume download functionality. The site emphasizes a clean UI, structured project data presentation, and a smooth user experience through global state management and optimized styling.",
           demo: "https://chunghyunleeportfolio.netlify.app/",
           github: "https://github.com/hyun0520/comp229"
         },
         {
           title: "FlickBuzz project",
           role: "Role: developer",
-          conclusion: "Conclusion: It is a movie review site where users can leave reviews of movies.",
+          tech: "Tech Stack: Node.js, Express.js, JavaScript, MongoDB, Mongoose, JWT, bcrypt, MVC Architecture, REST API",
+          conclusion: "This project is a movie review web application developed as a team project using React and Node.js. The backend is built with Express.js, where I implemented core security features such as JWT-based login and user authentication, role validation, and password hashing using bcrypt. Using MongoDB and Mongoose, the system structurally manages movie, user, and review data. The backend follows an MVC architecture, separating controllers, models, and routes to improve scalability and maintainability. The application provides stable client–server communication through a well-designed REST API, resulting in a fully functional full-stack web application.",
           demo: "https://your-flickbuzz-link.com",
           github: "https://github.com/JalenNM/COMP229-S25-Group2Coders"
         },
         {
           title: "Morae-al Publication",
-          role: "Role: Writer",
-          conclusion: "Conclusion: To become a global citizen, write about empathy, critical consciousness, and respect for cultural diversity.",
+          role: "Role: developer",
+          tech: "Tech Stack: React.js, React Router, JavaScript(ES6), Node.js, Vite, CSS3(Responsive)",
+          conclusion: "This website displays book data from BooksData, showing the five newest books on the Home page and the full list on the Details page. Book details open in a popup with tabbed sections (introduction, author, table of contents). The project includes purchase link integration, responsive design, and a React Router-based page structure for a smooth publishing-style user experience.",
           demo: "https://moraeal.netlify.app/",
           github: "https://github.com/hyun0520/moraeal"
         }
@@ -81,10 +84,10 @@ export const text = {
     blood: "O형 RH+",
     strengthLabel: "강점:",
     strength: "군 복무를 성실히 마치며 책임감과 성실함을 기를 수 있었습니다. 맡은 일에 최선을 다하며, 어떤 팀에서도 긍정적인 태도와 강한 업무 윤리로 기여할 준비가 되어 있습니다.",
-    resume: "RESUME"
+    resume: "이력서"
     },
     contact: {
-    title: "문의",
+    title: "CONTACT",
     address: "경기도 고양시 일산동구 노루목로 79",
     form: "Contact Form"
     },
@@ -94,21 +97,24 @@ export const text = {
         {
           title: "포트폴리오 프로젝트",
           role: "역할: 개발자",
-          conclusion: "Centennial College 학교 프로젝트로 만든 React와 Vite를 사용하여 제작한 개인 포트폴리오 웹사이트입니다.",
+          tech: "기술스택: React.js, React Router, JavaScript(ES6+), JSX, vite CSS3, Context API, Responsive",
+          conclusion: "React와 Vite 기반으로, 다국어 지원과 동적 Resume 다운로드 기능을 포함한 반응형 개인 포트폴리오 사이트를 개발했습니다. Projects 카드 데이터의 구조화, Context 기반 글로벌 상태관리, 스타일 최적화를 통해 사용자 경험을 중점적으로 설계한 웹 애플리케이션입니다.",
           demo: "https://chunghyunleeportfolio.netlify.app/",
           github: "https://github.com/hyun0520/comp229"
         },
         {
           title: "FlickBuzz 프로젝트",
-          role: "역할: 로그인 시스템, 유저 권한 시스템 구현",
-          conclusion: " 팀프로젝트로 만든 사이트이며, 사용자가 영화 리뷰를 작성할 수 있는 영화 리뷰 웹사이트입니다.",
+          role: "역할: 개발자",
+          tech: "기술스택: Node.js, Express.js, JavaScript, MongoDB, Mongoose, JWT, bcrypt, MVC Architecture, REST API",
+          conclusion: " React와 Node.js 기반으로 팀 프로젝트로 제작한 영화 리뷰 웹사이트입니다. 서버는 Express.js로 구축하였으며, JWT 기반 로그인/회원 인증, 유저 권한 검증, 비밀번호 암호화(bcrypt) 등 보안 기능을 직접 구현했습니다. MongoDB와 Mongoose를 활용해 영화·유저·리뷰 정보를 구조적으로 관리하고, MVC 패턴을 따라 컨트롤러/모델/라우터를 분리하여 확장성과 유지보수성을 높였습니다. REST API 설계를 통해 클라이언트와 안정적으로 데이터 통신이 가능하도록 구성된 풀스택 웹 애플리케이션입니다.",
           demo: "https://your-flickbuzz-link.com",
           github: "https://github.com/JalenNM/COMP229-S25-Group2Coders"
         },
         {
-          title: "모래알 출판",
+          title: "도서출판 모래알",
           role: "역할: 개발자",
-          conclusion: "공감과 비판적 사고, 문화적 다양성에 대한 존중을 주제로 한 글로벌 시민 의식 프로젝트입니다.",
+          tech: "기술스택: React.js, React Router, JavaScript(ES6), Node.js, Vite, CSS3(Responsive)",
+          conclusion: "이 웹사이트는 BooksData를 기반으로 도서를 렌더링하며, 홈에서는 최신 도서 5권만 보여주고 Details에서는 전체 도서를 확인할 수 있습니다. 도서는 팝업(BookPopup) 방식으로 상세 정보(책 소개/저자 소개/목차)를 탭 UI로 제공합니다. 구매 버튼 연동, 반응형 디자인 적용, React Router 기반 페이지 구성으로 출판 사이트에 최적화된 사용자 경험을 구현했습니다.",
           demo: "https://moraeal.netlify.app/",
           github: "https://github.com/hyun0520/moraeal"
         }

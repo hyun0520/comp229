@@ -26,6 +26,7 @@ export default function Projects() {
             <div className="card__body">
               <h3 className="tit">{card.title}</h3>
               <p className="desc"><strong>{card.role}</strong></p>
+              <p className="desc"><strong>{card.tech}</strong></p>
               <p className="desc"><strong>{card.conclusion}</strong></p>
 
               <div className="project__links">
