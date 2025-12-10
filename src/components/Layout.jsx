@@ -4,7 +4,7 @@ import { text } from "../i18n/text";
 import logoimg from '../assets/logoimg.png';
 import './Layout.css';
 
-export default function Layout() {
+export default function Layout({ children }) {
   const { lang, setLang } = useLanguage();
   const t = text[lang].nav;
 
@@ -26,20 +26,19 @@ export default function Layout() {
         </nav>
 
         <div className="lang-switch">
-          <button
-            className={lang === "en" ? "active" : ""}
-            onClick={() => setLang("en")}
-          >
+          <button className={lang === "en" ? "active" : ""} onClick={() => setLang("en")}>
             EN
           </button>
-          <button
-            className={lang === "ko" ? "active" : ""}
-            onClick={() => setLang("ko")}
-          >
+          <button className={lang === "ko" ? "active" : ""} onClick={() => setLang("ko")}>
             KR
           </button>
         </div>
       </header>
+
+      
+      <main className="main-content">
+        {children}
+      </main>
 
       <footer className="footer">
         <p>© 2025 CH.Lee Portfolio. All Rights Reserved.</p>

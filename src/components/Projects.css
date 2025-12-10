@@ -1,4 +1,7 @@
 /* card styles */
+section {
+  margin-top: 60px;
+}
 .card__inner {
   display: flex;
   flex-wrap: wrap; 

@@ -37,8 +37,8 @@ export default function About() {
             onClick={() => {
               const resumeFile =
                 lang === "ko"
-                  ? "/Resume_KR.pdf"     // 한국어 이력서
-                  : "/Resume_EN.pdf";    // 영어 이력서
+                  ? "/Resume_KR.pdf"    
+                  : "/Resume_EN.pdf";    
 
               window.open(resumeFile, "_blank");
             }}

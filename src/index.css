@@ -1,6 +1,5 @@
 /*Arrange the middle stand*/
 body {
-  margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;

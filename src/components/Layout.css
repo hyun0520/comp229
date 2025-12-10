@@ -125,29 +125,32 @@ body {
 ============================== */
 @media (max-width: 768px) {
   .header {
-    padding: 0 14px;
     height: 70px;
+    padding: 0 12px;
   }
 
   .logo {
-    height: 48px;
+    height: 40px;
   }
 
+  
   .nav ul {
-    gap: 14px;
+    gap: 10px;
   }
 
   .nav a {
-    font-size: 14px;
-  }
-
-  .lang-switch button {
-    padding: 4px 8px;
     font-size: 11px;
   }
 
-  body {
-    padding-top: 90px;
-    padding-bottom: 90px;
+  
+  .lang-switch {
+    display: flex;
+    gap: 4px;
+  }
+
+  .lang-switch button {
+    padding: 4px 6px;
+    font-size: 11px;
   }
 }
+
