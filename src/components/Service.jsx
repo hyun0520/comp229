@@ -12,7 +12,6 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa";
 
-
 const techGroups = [
   {
     title: "Backend",
@@ -27,7 +26,7 @@ const techGroups = [
     title: "Frontend",
     items: [
       { name: "React", icon: <GrReactjs color="0425c8"/> },
-      { name: "Javascript", icon: <RiJavascriptFill color="yellow"/>  },
+      { name: "Javascript", icon: <RiJavascriptFill color="yellow"/> },
       { name: "Bootstrap", icon: <DiBootstrap color="A10BF7"/> },
       { name: "HTML", icon: <FaHtml5 color="#FF7F50"/> },
       { name: "CSS", icon: <BiSolidFileCss color="#A10BF7"/> },
@@ -49,21 +48,24 @@ export default function Service() {
   return (
     <section className="tech-stack"> 
       <h2>TECHNOLOGY</h2>
-      {techGroups.map((group) => (
-        <div className="tech-group">
-          <h3>{group.title}</h3>  {/*tittle*/}
+
+      {techGroups.map((group, groupIndex) => (
+        <div className="tech-group" key={groupIndex}>
+          <h3>{group.title}</h3>
+
           <div className="tech-items"> 
-            {group.items.map((tech) => (
-              <div className="tech-card"> 
+            {group.items.map((tech, techIndex) => (
+              <div className="tech-card" key={techIndex}>
                 <div className="icon-text">
-                  <div className="icon-component">{tech.icon}</div> {/*icon*/}
-                  <span>{tech.name}</span> {/*text*/}
+                  <div className="icon-component">{tech.icon}</div>
+                  <span>{tech.name}</span>
                 </div>
               </div>
             ))}
           </div>
         </div>
       ))}
+
     </section>
   );
 }

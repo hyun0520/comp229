@@ -2,11 +2,12 @@ import './Projects.css'
 import projectimg from '../assets/projectimg.png'
 import projectimg2 from '../assets/projectimg2.png'
 import projectimg3 from '../assets/projectimg3.png'
+import projectimg4 from '../assets/projectimg4.png'
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useLanguage } from "./LanguageContext";
 import { text } from "../i18n/text";
 
-const images = [projectimg3, projectimg, projectimg2];
+const images = [projectimg3, projectimg, projectimg2, projectimg4];
 
 export default function Projects() {
   const { lang } = useLanguage();
