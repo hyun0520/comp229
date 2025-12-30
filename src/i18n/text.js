@@ -11,7 +11,7 @@ export const text = {
     home: {
       title: "WELCOME",
       intro: "As a student, I'm working toward becoming a skilled full-stack web developer.",
-      contact: "ABOUT"
+      contact: "Projects"
     },
     about: {
     title: "About Me",
@@ -80,7 +80,7 @@ export const text = {
     home: {
       title: "환영합니다",
       intro: "저는 숙련된 풀스택 웹 개발자가 되기 위해 학습 중인 학생입니다.",
-      contact: "ABOUT"
+      contact: "Project"
     },
     about: {
     title: "About Me",

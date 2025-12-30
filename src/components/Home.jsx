@@ -21,7 +21,7 @@ export default function Home() {
           </h3>
 
           {/* Move to Contact-page */}
-          <Link to="/about">
+          <Link to="/projects">
             <button className="button">{t.contact}</button>
           </Link>
         </div>
